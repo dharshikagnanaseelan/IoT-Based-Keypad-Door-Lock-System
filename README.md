@@ -1,24 +1,45 @@
 # IoT-Based Keypad Door Lock System
 
-## Description
-This Arduino-based door locking system enhances security by using a keypad for authentication. Users can unlock the door by entering a correct PIN. The system also includes IoT integration for remote monitoring.
+## Overview
+This project simulates an IoT-based keypad door lock system using **Arduino Uno**, **C++**, and **Tinkercad**. The system allows users to input a password using a 4x4 keypad and unlock a door by controlling a servo motor. The system provides feedback via an **LCD Display** and **Piezo Buzzer**, and implements security features such as temporary and permanent lockouts after multiple failed attempts.
 
 ## Features
-- Keypad-based authentication
-- Remote monitoring (with IoT)
-- Arduino-powered
-- Buzzer and LED alerts for success/failure
-- Customizable PIN
+- **Password Input**: Users can input a password using a 4x4 keypad.
+- **Servo Motor Control**: Unlocks the door by controlling the servo motor.
+- **LCD Display**: Displays the current status and instructions.
+- **Piezo Buzzer**: Provides real-time feedback for correct/incorrect attempts.
+- **Security Lockout**: Temporarily or permanently locks the system after multiple failed attempts.
+- **Backspace Function**: Allows users to correct their password input.
 
-## Components Used
-- Arduino Uno (or ESP8266/ESP32)
-- 4x4 Keypad
-- Solenoid Lock
-- Relay Module
-- Buzzer & LED
+## Technologies
+- **Arduino Uno**
+- **C++ Programming**
+- **Tinkercad** (Simulation)
+- **4x4 Keypad**
+- **Servo Motor**
+- **LCD Display**
+- **Piezo Buzzer**
 
-## Setup
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/dharshikagnanaseelan/IoT-Based-Keypad-Door-Lock-System.git
-   cd IoT-Based-Keypad-Door-Lock-System
+## Components Required
+1. Arduino Uno
+2. 4x4 Keypad
+3. Servo Motor
+4. LCD Display (16x2)
+5. Piezo Buzzer
+6. Jumper Wires
+7. Breadboard
+
+## How to Use
+1. Connect the hardware components as shown in the circuit diagram (available in the project repository).
+2. Upload the code to your Arduino using the Arduino IDE.
+3. Use the keypad to enter a password.
+4. If the password is correct, the servo motor will unlock the door.
+5. If the password is incorrect, a buzzer will sound, and after a set number of incorrect attempts, the system will lock temporarily or permanently.
+
+## GitHub Repository
+For the code and detailed documentation, visit the GitHub repository:  
+[GitHub Link](https://github.com/dharshikagnanaseelan/IoT-Based-Keypad-Door-Lock-System)
+
+## Installation
+ Clone or download the repository.
+
