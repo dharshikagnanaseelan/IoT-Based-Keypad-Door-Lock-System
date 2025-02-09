@@ -20,5 +20,5 @@ This Arduino-based door locking system enhances security by using a keypad for a
 ## Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/dharshikagnanaseelan/IoT-Keypad-Door-Lock.git
+   git clone https://github.com/dharshikagnanaseelan/IoT-Based-Keypad-Door-Lock-System.git
    cd IoT-Keypad-Door-Lock
